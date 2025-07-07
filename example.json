@@ -1,0 +1,64 @@
+[
+    {
+      "kegiatan": "Proses Kualifikasi",
+      "risiko": [
+        {
+          "masalah": "Alamat customer tidak lengkap",
+          "resiko_yang_timbul": "Kesalahan dalam penentuan tarif",
+          "pengendalian_risiko": "Validasi data customer sebelum proses kualifikasi",
+          "tindakan_perbaikan": "Update SOP pengumpulan data customer"
+        },
+        {
+          "masalah": "Input tarif terlambat",
+          "resiko_yang_timbul": "Koreksi (selisih) harga dari yang diinput dan realita",
+          "pengendalian_risiko": "Terapkan deadline dan reminder sistem input",
+          "tindakan_perbaikan": "Audit keterlambatan input dan training ulang"
+        }
+      ]
+    },
+    {
+      "kegiatan": "Kalkulasi harga dari S1L dan update CRM",
+      "risiko": [
+        {
+          "masalah": "Kesalahan input harga",
+          "resiko_yang_timbul": "Banyak koreksi / revisi invoice pada harga",
+          "pengendalian_risiko": "Gunakan double-check harga oleh supervisor",
+          "tindakan_perbaikan": "Tambahkan checklist input harga"
+        }
+      ]
+    },
+    {
+      "kegiatan": "Request approval ke trade",
+      "risiko": [
+        {
+          "masalah": "Informasi harga yang belum disepakati",
+          "resiko_yang_timbul": "Kontrak di reject - Relasi tidak bisa stuffing",
+          "pengendalian_risiko": "Lakukan konfirmasi final harga sebelum approval",
+          "tindakan_perbaikan": "Tingkatkan koordinasi antar divisi harga dan trade"
+        }
+      ]
+    },
+    {
+      "kegiatan": "Memberi penawaran harga",
+      "risiko": [
+        {
+          "masalah": "Koreksi harga dari customer, sales ada kekurangan dalam menginformasikan biaya",
+          "resiko_yang_timbul": "Terjadi selisih harga ketika invoice dicetak",
+          "pengendalian_risiko": "Sosialisasi dan simulasi pricing untuk sales",
+          "tindakan_perbaikan": "Revisi format penawaran agar lebih transparan"
+        }
+      ]
+    },
+    {
+      "kegiatan": "Harga terinput di S1L",
+      "risiko": [
+        {
+          "masalah": "Salah input dan terlambat input harga ke S1L",
+          "resiko_yang_timbul": "Banyak koreksi / revisi invoice pada harga",
+          "pengendalian_risiko": "Berikan waktu buffer dan pengecekan sistem sebelum publish",
+          "tindakan_perbaikan": "Buat laporan mingguan input S1L"
+        }
+      ]
+    }
+  ]
+  
